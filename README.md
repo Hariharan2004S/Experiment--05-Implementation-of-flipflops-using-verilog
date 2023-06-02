@@ -109,9 +109,61 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:Hariharan.S 
+RegisterNumber:212222050016  
 */
+###SR flipflop
+
+module srflipflop(s,r,clk,q,qbar);
+input s,r,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=s|(~r&q);
+qbar<=r|(~s&~q);
+end
+endmodule
+
+###JK flipflop
+
+module jkflipflop(j,k,clk,q,qbar);
+input j,k,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=(j&~q)|(~k&q);
+qbar<=~q;
+end
+endmodule
+
+###T flipflop
+
+module tflipflop(t,clk,q,qbar);
+input t,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=(t&~q)|(~t&q);
+qbar<=~q;
+end
+endmodule
+
+###D flipflop
+
+module dflipflop(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=d;
+qbar<=~q;
+end
+endmodule
+
 
 
 
@@ -120,6 +172,10 @@ RegisterNumber:
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+#SR flipflop
+#JK flipflop
+#T flipflop
+#D flipflop
 
 
 
@@ -130,7 +186,10 @@ RegisterNumber:
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
-
+#SR flipflop
+#JK flipflop
+#T flipflop
+#D flipflop
 
 
 
