@@ -175,9 +175,17 @@ endmodule
 ### RTL LOGIC FOR FLIPFLOPS 
 
 #SR flipflop
+![rtl srf (2)](https://github.com/Hariharan2004S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/123146156/965d2708-7d67-4baa-839d-ccba09d661bc)
+
 #JK flipflop
+![rtl jkf](https://github.com/Hariharan2004S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/123146156/89933d1b-8c3b-42bf-a551-1f2fcabec5b5)
+
 #T flipflop
+![WhatsApp Image 2023-05-25 at 08 42 09](https://github.com/Hariharan2004S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/123146156/cfec48cc-ebea-44b8-87ec-b80df380ad8c)
+
 #D flipflop
+![WhatsApp Image 2023-05-25 at 08 42 57](https://github.com/Hariharan2004S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/123146156/aa797e1d-047d-4efe-8472-8ed2d1cc5a46)
+
 
 
 
