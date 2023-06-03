@@ -112,7 +112,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by:Hariharan.S 
 RegisterNumber:212222050016  
 */
-###SR flipflop
+```###SR flipflop
 
 module srflipflop(s,r,clk,q,qbar);
 input s,r,clk;
@@ -163,6 +163,7 @@ q<=d;
 qbar<=~q;
 end
 endmodule
+```
 
 
 
